@@ -8,22 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		B12F2FEA1BB3844F00D55789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F2FE91BB3844F00D55789 /* AppDelegate.swift */; };
-		B12F2FEC1BB3844F00D55789 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F2FEB1BB3844F00D55789 /* FirstViewController.swift */; };
-		B12F2FEE1BB3844F00D55789 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F2FED1BB3844F00D55789 /* SecondViewController.swift */; };
 		B12F2FF11BB3844F00D55789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12F2FEF1BB3844F00D55789 /* Main.storyboard */; };
 		B12F2FF31BB3844F00D55789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12F2FF21BB3844F00D55789 /* Assets.xcassets */; };
 		B12F2FF61BB3844F00D55789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12F2FF41BB3844F00D55789 /* LaunchScreen.storyboard */; };
+		B12F300B1BB3848500D55789 /* HGBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F30001BB3848500D55789 /* HGBaseNavigationController.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F300C1BB3848500D55789 /* HGBaseRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F30021BB3848500D55789 /* HGBaseRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F300D1BB3848500D55789 /* HGContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F30031BB3848500D55789 /* HGContentViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F300E1BB3848500D55789 /* HGSideCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F30041BB3848500D55789 /* HGSideCellModel.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F300F1BB3848500D55789 /* HGSidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F30051BB3848500D55789 /* HGSidePanelViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F30101BB3848500D55789 /* HGTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F30071BB3848500D55789 /* HGTabBarViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F30111BB3848500D55789 /* HGBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F30091BB3848500D55789 /* HGBaseTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F30121BB3848500D55789 /* HGBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F300A1BB3848500D55789 /* HGBaseViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F30281BB3848C00D55789 /* HGLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F301A1BB3848C00D55789 /* HGLocationManager.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F30291BB3848C00D55789 /* HGMotionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F301B1BB3848C00D55789 /* HGMotionKit.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F302A1BB3848C00D55789 /* SwiftColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F301C1BB3848C00D55789 /* SwiftColors.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F302B1BB3848C00D55789 /* HGMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F301E1BB3848C00D55789 /* HGMineViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F302C1BB3848C00D55789 /* HGSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F30201BB3848C00D55789 /* HGSettingViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F302D1BB3848C00D55789 /* HGSettingSportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F30221BB3848C00D55789 /* HGSettingSportViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B12F302E1BB3848C00D55789 /* HGSportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F30231BB3848C00D55789 /* HGSportViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B12F2FE61BB3844F00D55789 /* HGRunningNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGRunningNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12F2FE91BB3844F00D55789 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B12F2FEB1BB3844F00D55789 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B12F2FED1BB3844F00D55789 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B12F2FF01BB3844F00D55789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B12F2FF21BB3844F00D55789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B12F2FF51BB3844F00D55789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B12F2FF71BB3844F00D55789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12F30001BB3848500D55789 /* HGBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGBaseNavigationController.swift; sourceTree = "<group>"; };
+		B12F30021BB3848500D55789 /* HGBaseRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGBaseRootViewController.swift; sourceTree = "<group>"; };
+		B12F30031BB3848500D55789 /* HGContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGContentViewController.swift; sourceTree = "<group>"; };
+		B12F30041BB3848500D55789 /* HGSideCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGSideCellModel.swift; sourceTree = "<group>"; };
+		B12F30051BB3848500D55789 /* HGSidePanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGSidePanelViewController.swift; sourceTree = "<group>"; };
+		B12F30071BB3848500D55789 /* HGTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGTabBarViewController.swift; sourceTree = "<group>"; };
+		B12F30091BB3848500D55789 /* HGBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGBaseTableViewController.swift; sourceTree = "<group>"; };
+		B12F300A1BB3848500D55789 /* HGBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGBaseViewController.swift; sourceTree = "<group>"; };
+		B12F301A1BB3848C00D55789 /* HGLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGLocationManager.swift; sourceTree = "<group>"; };
+		B12F301B1BB3848C00D55789 /* HGMotionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGMotionKit.swift; sourceTree = "<group>"; };
+		B12F301C1BB3848C00D55789 /* SwiftColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftColors.swift; sourceTree = "<group>"; };
+		B12F301E1BB3848C00D55789 /* HGMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGMineViewController.swift; sourceTree = "<group>"; };
+		B12F30201BB3848C00D55789 /* HGSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGSettingViewController.swift; sourceTree = "<group>"; };
+		B12F30221BB3848C00D55789 /* HGSettingSportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGSettingSportViewController.swift; sourceTree = "<group>"; };
+		B12F30231BB3848C00D55789 /* HGSportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGSportViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,116 @@
 		B12F2FE81BB3844F00D55789 /* HGRunningNew */ = {
 			isa = PBXGroup;
 			children = (
+				B12F30131BB3848C00D55789 /* HGSUV */,
+				B12F2FFD1BB3848500D55789 /* HGFrameWork */,
 				B12F2FE91BB3844F00D55789 /* AppDelegate.swift */,
-				B12F2FEB1BB3844F00D55789 /* FirstViewController.swift */,
-				B12F2FED1BB3844F00D55789 /* SecondViewController.swift */,
 				B12F2FEF1BB3844F00D55789 /* Main.storyboard */,
 				B12F2FF21BB3844F00D55789 /* Assets.xcassets */,
 				B12F2FF41BB3844F00D55789 /* LaunchScreen.storyboard */,
 				B12F2FF71BB3844F00D55789 /* Info.plist */,
 			);
 			path = HGRunningNew;
+			sourceTree = "<group>";
+		};
+		B12F2FFD1BB3848500D55789 /* HGFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				B12F2FFE1BB3848500D55789 /* ViewLayer */,
+			);
+			path = HGFrameWork;
+			sourceTree = "<group>";
+		};
+		B12F2FFE1BB3848500D55789 /* ViewLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B12F2FFF1BB3848500D55789 /* NavController */,
+				B12F30011BB3848500D55789 /* SlideNavController */,
+				B12F30061BB3848500D55789 /* TabBarController */,
+				B12F30081BB3848500D55789 /* ViewController */,
+			);
+			path = ViewLayer;
+			sourceTree = "<group>";
+		};
+		B12F2FFF1BB3848500D55789 /* NavController */ = {
+			isa = PBXGroup;
+			children = (
+				B12F30001BB3848500D55789 /* HGBaseNavigationController.swift */,
+			);
+			path = NavController;
+			sourceTree = "<group>";
+		};
+		B12F30011BB3848500D55789 /* SlideNavController */ = {
+			isa = PBXGroup;
+			children = (
+				B12F30021BB3848500D55789 /* HGBaseRootViewController.swift */,
+				B12F30031BB3848500D55789 /* HGContentViewController.swift */,
+				B12F30041BB3848500D55789 /* HGSideCellModel.swift */,
+				B12F30051BB3848500D55789 /* HGSidePanelViewController.swift */,
+			);
+			path = SlideNavController;
+			sourceTree = "<group>";
+		};
+		B12F30061BB3848500D55789 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				B12F30071BB3848500D55789 /* HGTabBarViewController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		B12F30081BB3848500D55789 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B12F30091BB3848500D55789 /* HGBaseTableViewController.swift */,
+				B12F300A1BB3848500D55789 /* HGBaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B12F30131BB3848C00D55789 /* HGSUV */ = {
+			isa = PBXGroup;
+			children = (
+				B12F30191BB3848C00D55789 /* HGtools */,
+				B12F30211BB3848C00D55789 /* Sport */,
+				B12F301D1BB3848C00D55789 /* MineCenter */,
+				B12F301F1BB3848C00D55789 /* Setting */,
+			);
+			path = HGSUV;
+			sourceTree = "<group>";
+		};
+		B12F30191BB3848C00D55789 /* HGtools */ = {
+			isa = PBXGroup;
+			children = (
+				B12F301A1BB3848C00D55789 /* HGLocationManager.swift */,
+				B12F301B1BB3848C00D55789 /* HGMotionKit.swift */,
+				B12F301C1BB3848C00D55789 /* SwiftColors.swift */,
+			);
+			path = HGtools;
+			sourceTree = "<group>";
+		};
+		B12F301D1BB3848C00D55789 /* MineCenter */ = {
+			isa = PBXGroup;
+			children = (
+				B12F301E1BB3848C00D55789 /* HGMineViewController.swift */,
+			);
+			path = MineCenter;
+			sourceTree = "<group>";
+		};
+		B12F301F1BB3848C00D55789 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				B12F30201BB3848C00D55789 /* HGSettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		B12F30211BB3848C00D55789 /* Sport */ = {
+			isa = PBXGroup;
+			children = (
+				B12F30221BB3848C00D55789 /* HGSettingSportViewController.swift */,
+				B12F30231BB3848C00D55789 /* HGSportViewController.swift */,
+			);
+			path = Sport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +264,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12F2FEE1BB3844F00D55789 /* SecondViewController.swift in Sources */,
+				B12F302E1BB3848C00D55789 /* HGSportViewController.swift in Sources */,
+				B12F300E1BB3848500D55789 /* HGSideCellModel.swift in Sources */,
+				B12F302D1BB3848C00D55789 /* HGSettingSportViewController.swift in Sources */,
+				B12F302B1BB3848C00D55789 /* HGMineViewController.swift in Sources */,
+				B12F300F1BB3848500D55789 /* HGSidePanelViewController.swift in Sources */,
+				B12F300B1BB3848500D55789 /* HGBaseNavigationController.swift in Sources */,
+				B12F30121BB3848500D55789 /* HGBaseViewController.swift in Sources */,
+				B12F30291BB3848C00D55789 /* HGMotionKit.swift in Sources */,
+				B12F30111BB3848500D55789 /* HGBaseTableViewController.swift in Sources */,
+				B12F302C1BB3848C00D55789 /* HGSettingViewController.swift in Sources */,
+				B12F30281BB3848C00D55789 /* HGLocationManager.swift in Sources */,
+				B12F300D1BB3848500D55789 /* HGContentViewController.swift in Sources */,
+				B12F300C1BB3848500D55789 /* HGBaseRootViewController.swift in Sources */,
+				B12F302A1BB3848C00D55789 /* SwiftColors.swift in Sources */,
 				B12F2FEA1BB3844F00D55789 /* AppDelegate.swift in Sources */,
-				B12F2FEC1BB3844F00D55789 /* FirstViewController.swift in Sources */,
+				B12F30101BB3848500D55789 /* HGTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +392,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HGRunningNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.myway.run.HGRunningNew;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myway.run;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -263,7 +403,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HGRunningNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.myway.run.HGRunningNew;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myway.run;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -287,6 +427,7 @@
 				B12F2FFC1BB3844F00D55789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
