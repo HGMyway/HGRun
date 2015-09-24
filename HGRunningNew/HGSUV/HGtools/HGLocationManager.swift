@@ -83,11 +83,23 @@ public class HGLocationManager: NSObject {
     
     
     
-//MARK: 共有方法
+//MARK: 公开方法
+    
+    /*
+    *  startUpdatingLocation
+    *
+    *  Discussion:
+    *      开始监听位置坐标
+    */
     func startUpdatingLocation() -> ( enable: Bool, authorStatus: CLAuthorizationStatus) {
         return checkCurrentStatus()
     }
-    
+    /*
+    *  stopUpdatingLocation
+    *
+    *  Discussion:
+    *      结束监听位置坐标
+    */
     func stopUpdatingLocation(){
         locationManager.stopUpdatingLocation()
     }
@@ -107,6 +119,7 @@ extension HGLocationManager: CLLocationManagerDelegate{
     
     public func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
         //用户权限状态改变时调用
+        
     }
     
     
