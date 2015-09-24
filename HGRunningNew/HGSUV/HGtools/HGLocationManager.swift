@@ -16,7 +16,8 @@ protocol HGLocationManagerDelegate : class {
 
 
 public class HGLocationManager: NSObject {
-    
+
+    //代理
     weak var delegate: HGLocationManagerDelegate?
     
     
