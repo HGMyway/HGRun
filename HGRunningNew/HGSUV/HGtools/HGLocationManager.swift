@@ -92,7 +92,11 @@ public class HGLocationManager: NSObject {
     *      开始监听位置坐标
     */
     func startUpdatingLocation() -> ( enable: Bool, authorStatus: CLAuthorizationStatus) {
-        return checkCurrentStatus()
+        
+        let (isEnable,auth) = checkCurrentStatus()
+        
+        return  (isEnable,auth)
+        
     }
     /*
     *  stopUpdatingLocation
